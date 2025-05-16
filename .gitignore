@@ -126,6 +126,11 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
+latestenv/
+tf241env/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
 
 # Environments
 .env
