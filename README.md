@@ -36,8 +36,8 @@ Signlangdetec is an open-source project that leverages computer vision and machi
 
 ## Demo
 
-![Demo Picture 1](assets/demo1.png)
-![Demo Picture 2](assets/demo2.png)
+![Demo Picture 1](demo1.png)
+![Demo Picture 2](demo2.png)
 
 ---
 
