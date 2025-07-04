@@ -46,7 +46,8 @@ Signlangdetec is an open-source project that leverages computer vision and machi
 ### Prerequisites
 
 - Python 3.7+
-- [Jupyter Notebook](https://jupyter.org/)
+- Tensorflow 2.10+
+- For those wanting to change the model, a dedicated GPU is recommended
 - [pip](https://pip.pypa.io/en/stable/)
 
 ### Required Packages
@@ -71,16 +72,11 @@ pip install numpy opencv-python mediapipe tensorflow matplotlib
     cd Signlangdetec
     ```
 
-2. **Start Jupyter Notebook**
+2. **Start the App**
     ```bash
-    jupyter notebook
+    python app.py
     ```
-    Open the main notebook (e.g., `SignLanguageDetection.ipynb`) in your browser.
-
-3. **Run the Notebook**
-    - Follow the instructions in each cell.
-    - Provide a camera input or use a sample video.
-    - View real-time caption output as you sign.
+    Will add an installer to package it as a full standalone app - incoming!
 
 ---
 
@@ -110,13 +106,6 @@ We welcome contributions!
 4. Push to the branch: `git push origin feature/your-feature-name`
 5. Open a Pull Request
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
-
----
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
